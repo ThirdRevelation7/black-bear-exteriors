@@ -1,4 +1,5 @@
 import RevealOnScroll from "./RevealOnScroll";
+import clear_logo from "../assets/clear-logo.png";
 
 
 
@@ -10,7 +11,7 @@ const About = () => {
                 <h1 className="text-2xl sm:text-4xl font-bold mb-2">About <span className="underline underline-offset-4 decoration-1 under font-light">Our Brand</span></h1>
                 <p className="text-gray-500 max-w-80 text-center mb-8">What we do, and Who we are.</p>
                 <div className="flex flex-col md:flex-row md:items-start items-center md:gap-20">
-                    <img src="./src/assets/clear-logo.png" alt="man building patio" className="w-full max-w-lg sm:w-1/2 rounded-2xl shadow-2xl" />
+                    <img src={clear_logo} alt="company logo" className="w-full max-w-lg sm:w-1/2 rounded-2xl shadow-2xl" />
                     <div className="flex flex-col items-center md:items-start mt-10 text-gray-500">
                         <div className="grid grid-cols-2 gap-6 md:gap-10 w-full 2xl:pr-28">
                             <div>

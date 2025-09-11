@@ -17,7 +17,7 @@ const NavBar = () => {
     return (
         <div className="absolute top-0 left-0 w-full z-10 ">
             <div className="container mx-auto flex justify-between items-center py-1 px-6 md:px-20 lg:px-32 bg-transparent">
-                <img className="size-35" src="/brown-logo.png" alt="" />
+                <img className="size-35" src="brown-logo.png" alt="" />
                 <ul className="hidden md:flex gap-7 text-white">
                     <a href="#Header" className="cursor-pointer transition-all duration-400 hover:bg-white/30 hover:rounded-full hover:px-2">Home</a>
                     <a href="#About" className="cursor-pointer transition-all duration-400 hover:bg-white/30 hover:rounded-full hover:px-2">About</a>
