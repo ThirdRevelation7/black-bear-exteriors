@@ -1,12 +1,19 @@
-# React + Vite
+# Black Bear Exteriors Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive company website built with **React** and **Vite**, featuring smooth animations and a contact form powered by **Web3Forms API** for email submissions.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Built with **React + Vite** for fast performance
+- Responsive design (mobile, tablet, desktop friendly)
+- Smooth reveal-on-scroll animations (Framer Motion + Intersection Observer)
+- Contact form integration using **Web3Forms API**
+- Tailwind CSS for styling
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [React Intersection Observer](https://github.com/thebuilder/react-intersection-observer)
+- [Web3Forms](https://web3forms.com/)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
