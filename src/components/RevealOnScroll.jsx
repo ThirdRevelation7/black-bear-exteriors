@@ -3,11 +3,11 @@ import { useInView } from "react-intersection-observer";
 
 const RevealOnScroll = ({ children, className = "", direction = "up" }) => {
     const { ref, inView } = useInView({
-        threshold: 0.25, //Change how soon the ref becomes "in view"
+        threshold: 0.20, //Change how soon the ref becomes "in view"
         triggerOnce: true,
     });
 
-    const offset = 175; //Change offset as needed (Starting position from left to right)
+    const offset = 130; //Change offset as needed (Starting position from left to right)
     const variants = {
         hidden: {
             opacity: 0,
@@ -18,7 +18,7 @@ const RevealOnScroll = ({ children, className = "", direction = "up" }) => {
             opacity: 1,
             x: 0,
             y: 0,
-            transition: { duration: 1, ease: "easeOut" },
+            transition: { duration: 0.8, ease: "easeOut" },
         },
     };
 
