@@ -25,7 +25,7 @@ const NavBar = () => {
                     <a href="#Testimonials" className="cursor-pointer transition-all duration-400 hover:bg-white/30 hover:rounded-full hover:px-2">Testimonials</a>
                 </ul>
                 <a href="#Contact"><button className="hidden md:block bg-[#ebdfc9] hover:bg-amber-200/50 cursor-pointer px-8 py-2 rounded-full">Email Us!</button></a>
-                <button className="text-white md:hidden w-7 h-5 cursor-pointer text-3xl" onClick={() => setShowMobileMenu(true)}>&#9776;</button>
+                <button className="text-white md:hidden w-7 h-10 cursor-pointer text-3xl" onClick={() => setShowMobileMenu(true)}>&#9776;</button>
             </div>
             {/* -------Mobile menu---------- */}
             <div className={`md:hidden ${showMobileMenu ? 'fixed w-full' : 'h-0 w-0'} overflow-hidden top-0 bottom-0 right-0 bg-white/20 backdrop-blur-lg transition-all`}>
