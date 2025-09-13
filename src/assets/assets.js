@@ -8,6 +8,7 @@ import user_2 from "./user-2.png";
 import user_3 from "./user-3.png";
 import user_4 from "./user-4.png";
 import deck_under from "./deck-underneath.jpg";
+import wood_stain from "./wood-staining.jpg";
 import bears from "./bears.png";
 import logo from "./clear-logo.png";
 import { image } from "framer-motion/client";
@@ -44,6 +45,10 @@ export const projectsData = [
     {
         title: "Solid Foundations",
         img: deck_under
+    },
+    {
+        title: "Wood Staining",
+        img: wood_stain
     },
     {
         title: "Gutter Repairs",

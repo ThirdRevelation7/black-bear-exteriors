@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-const RevealOnScroll = ({ children, className = "", direction = "up" }) => {
+const RevealOnScroll = ({ children, className = "", threshold = 0.2, direction = "up" }) => {
     const { ref, inView } = useInView({
-        threshold: 0.20, //Change how soon the ref becomes "in view"
+        threshold, //Change how soon the ref becomes "in view"
         triggerOnce: true,
     });
 
