@@ -27,7 +27,7 @@ const About = () => {
                                 <p>Jobs Completed</p>
                             </div>
                             <div>
-                                <p className="text-4xl font-medium text-gray-800">Infinite &#8734;</p>
+                                <p className="text-4xl font-medium text-gray-800">Unlimited</p>
                                 <p>Dedication to improving your home</p>
                             </div>
                         </div>

@@ -18,7 +18,7 @@ const RevealOnScroll = ({ children, className = "", direction = "up" }) => {
             opacity: 1,
             x: 0,
             y: 0,
-            transition: { duration: 0.8, ease: "easeOut" },
+            transition: { duration: 0.5, ease: "easeOut" },
         },
     };
 
